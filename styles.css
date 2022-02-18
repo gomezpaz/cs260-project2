@@ -1,0 +1,62 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #7e8c8d;
+  }
+
+h1, h2, h3, h4 {
+    color: #7e8c8d;
+}
+
+  body {
+    background-color: #2d3e50;
+  }
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+.box .row.header {
+  flex: 0 1 auto;
+}
+
+.box .row.search-bar {
+  flex: 0 1 auto;
+  
+}
+
+.form-select {
+  flex-grow: 1;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#cryptoSubmit {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+  padding-bottom: 20px;
+}
+
+.box .row.footer {
+  flex: 0 1 60px;
+}
+
+.input-group {
+  display: flex;
+  flex-flow: row;
+}
+
+footer {
+  padding-top: 20px;
+}
+
