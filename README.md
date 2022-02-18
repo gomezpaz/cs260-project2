@@ -1,4 +1,4 @@
-# cs260-project2
-Webapp to fetch crypto exchange rates from CoinCap - 2022 cs260 project 2
+# CS260 Creative Project 2
+Webapp to fetch crypto exchange rates from CoinCap
 
 Read CoinCap API docs [here](https://docs.coincap.io/).
